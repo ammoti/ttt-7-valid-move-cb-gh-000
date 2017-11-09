@@ -3,7 +3,7 @@ def valid_move?(array,index)
 if(array[index]==" "&&index==0)
   return true
 end
-if (array[index]!="X" || array[index]!="O")
+if (array[index]!="X" || array[index]!="O"&&index==5)
   return true
 end
 if(array[index]=="X" || array[index]=="O")
