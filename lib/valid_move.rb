@@ -6,6 +6,8 @@ elsif (array[index]!="X" || array[index]!="O")
   return true
 elsif(array[index]=="X" || array[index]=="O")
   return nil
+elsif(array.length<index)
+  return nil
 end
 end
 
