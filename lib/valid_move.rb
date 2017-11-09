@@ -6,7 +6,7 @@ end
 if (array[index]!="X" || array[index]!="O"&&index==5)
   return true
 end
-if(array[index]=="X" || array[index]=="O")
+if(array[index]=="X" || array[index]=="O"&&index==4)
   return false
 end
 if(array.length<index)
