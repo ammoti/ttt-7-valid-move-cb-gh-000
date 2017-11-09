@@ -2,11 +2,11 @@
 def valid_move?(array,index)
 if(array[index]==" ")
   return true
-elsif (array[index]!="X" || array[index]!="O")
+if (array[index]!="X" || array[index]!="O")
   return true
-elsif(array[index]=="X" || array[index]=="O")
+if(array[index]=="X" || array[index]=="O")
   return nil
-elsif(array.length<index)
+if(array.length<index)
   return nil
 end
 end
