@@ -2,10 +2,13 @@
 def valid_move?(array,index)
 if(array[index]==" ")
   return true
+end
 if (array[index]!="X" || array[index]!="O")
   return true
+end
 if(array[index]=="X" || array[index]=="O")
   return nil
+end
 if(array.length<index)
   return nil
 end
