@@ -1,8 +1,8 @@
 # code your #valid_move? method here
 def valid_move?(array,index)
-  if(array.length<index)
+if(array.length<index)
     return false
-  end
+end
 if(array[index]==" "&&index==0)
   return true
 end
