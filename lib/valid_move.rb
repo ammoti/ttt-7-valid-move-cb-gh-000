@@ -7,10 +7,10 @@ if (array[index]!="X" || array[index]!="O")
   return true
 end
 if(array[index]=="X" || array[index]=="O")
-  return nil
+  return false
 end
 if(array.length<index)
-  return nil
+  return false
 end
 end
 
